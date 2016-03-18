@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15-06-04 map", "15-06-04 map.vcxproj", "{AB7B737F-E2D3-47EA-87BE-0B92BDE3117B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB7B737F-E2D3-47EA-87BE-0B92BDE3117B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AB7B737F-E2D3-47EA-87BE-0B92BDE3117B}.Debug|Win32.Build.0 = Debug|Win32
+		{AB7B737F-E2D3-47EA-87BE-0B92BDE3117B}.Release|Win32.ActiveCfg = Release|Win32
+		{AB7B737F-E2D3-47EA-87BE-0B92BDE3117B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

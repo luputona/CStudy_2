@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{2f20d210-ab76-4776-9e95-20ed1fb85cd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{ff888747-16df-4b4f-b9b4-345c14d2a5df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monster">
+      <UniqueIdentifier>{eb882155-6425-4828-94fd-5fbd23e68075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Field">
+      <UniqueIdentifier>{74308c93-5257-4d72-928d-67536ce6d716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weapon">
+      <UniqueIdentifier>{51cc5e74-af4f-4b44-83f3-d1cea0a98c2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Store">
+      <UniqueIdentifier>{085535dd-c056-4b76-b96e-4004b4a4fe4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Amor">
+      <UniqueIdentifier>{16ac3308-6430-4107-9273-ce532a86b0be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Item">
+      <UniqueIdentifier>{a229d42a-c3e2-463e-b1de-7d6777f4a89c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>Field</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Store.h">
+      <Filter>Store</Filter>
+    </ClInclude>
+    <ClInclude Include="Amor.h">
+      <Filter>Amor</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15-06-01 TextRpg Store.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>Field</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Store.cpp">
+      <Filter>Store</Filter>
+    </ClCompile>
+    <ClCompile Include="Amor.cpp">
+      <Filter>Amor</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

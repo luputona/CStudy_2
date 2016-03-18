@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="3.Manager">
+      <UniqueIdentifier>{f5778395-89b0-47df-b7a9-81707dc2176f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3.Manager\BitMap">
+      <UniqueIdentifier>{24184643-388a-49b2-8b18-4b527d61a464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="0.MainGame">
+      <UniqueIdentifier>{3c8c11dc-cbb9-4e4b-ac54-b7e1e1a3b28d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Include">
+      <UniqueIdentifier>{d346771e-b6b7-4a6c-9c7b-473aba0ff8b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="4.Design">
+      <UniqueIdentifier>{3ca002e2-603e-4b31-9101-2c61a48e0a15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1.State">
+      <UniqueIdentifier>{eeb2e121-e97e-4ec7-b21f-bde4d82d93ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.Object">
+      <UniqueIdentifier>{b61e425c-a3b6-44c5-b1c5-c9059df9457c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.Object\0.Logo">
+      <UniqueIdentifier>{d3da16f9-1845-4088-9b3b-d0babecd92a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.Object\1.Menu">
+      <UniqueIdentifier>{80839d4b-7b4b-4759-a8c8-c765e2439598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1.State\0.Logo">
+      <UniqueIdentifier>{1fa705cd-56d4-4880-8107-9b43dcdd1e5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1.State\1.Menu">
+      <UniqueIdentifier>{8846eaf8-bee0-4ae7-b9e7-f4b914625002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1.State\2.Stage">
+      <UniqueIdentifier>{6c9946e8-bc00-4591-80e3-3567b31af7c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3.Manager\StateMgr">
+      <UniqueIdentifier>{b04a13eb-1b3d-4138-b99e-730625493e27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.Object\1.Menu\BackGround">
+      <UniqueIdentifier>{5948c41a-dd5b-401f-8ed3-dc777538c887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.Object\1.Menu\Button">
+      <UniqueIdentifier>{f8eb10e9-1a92-464d-911d-a3833746992a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3.Manager\Mouse">
+      <UniqueIdentifier>{1c92a0ce-f570-479b-9f29-40356a028791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3.Manager\KeyMgr">
+      <UniqueIdentifier>{fd312790-7e71-426e-9244-5f177e6d972d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.Object\2.Stage">
+      <UniqueIdentifier>{81393515-bf0d-4d61-bf2d-1ed20f18dfad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.Object\2.Stage\Player">
+      <UniqueIdentifier>{9fed08bf-e3e0-4a1e-be83-6a3a85d33a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.Object\2.Stage\StageBack">
+      <UniqueIdentifier>{5b74dec3-f19b-4ff8-a99a-e884487e5acf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="winapi2.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainGame.h">
+      <Filter>0.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="BitMap.h">
+      <Filter>3.Manager\BitMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="winapi2.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="value.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>헤더 파일\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjFactory.h">
+      <Filter>4.Design</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>2.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="StateObj.h">
+      <Filter>1.State</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>1.State\0.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMenu.h">
+      <Filter>1.State\1.Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>1.State\2.Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMgr.h">
+      <Filter>3.Manager\StateMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>2.Object\1.Menu\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="MyButton.h">
+      <Filter>2.Object\1.Menu\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>3.Manager\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>3.Manager\KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>2.Object\2.Stage\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="StageBack.h">
+      <Filter>2.Object\2.Stage\StageBack</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="winapi2.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>0.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="BitMap.cpp">
+      <Filter>3.Manager\BitMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>2.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="StateObj.cpp">
+      <Filter>1.State</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>1.State\0.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMenu.cpp">
+      <Filter>1.State\1.Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>1.State\2.Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMgr.cpp">
+      <Filter>3.Manager\StateMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>2.Object\1.Menu\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="MyButton.cpp">
+      <Filter>2.Object\1.Menu\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>3.Manager\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>3.Manager\KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>2.Object\2.Stage\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="StageBack.cpp">
+      <Filter>2.Object\2.Stage\StageBack</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="winapi2.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

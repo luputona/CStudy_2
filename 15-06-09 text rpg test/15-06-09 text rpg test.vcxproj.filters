@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Obj">
+      <UniqueIdentifier>{bf22bc75-5afc-4409-8d0d-f39047a803d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obj\Player">
+      <UniqueIdentifier>{f7053b6a-1b9b-476b-9584-9c35f26b0e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obj\Monster">
+      <UniqueIdentifier>{ad625787-e655-43ee-96f9-b78564aeaef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{7784bb4b-e850-4eec-b93b-b2185e2dac08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obj\Field">
+      <UniqueIdentifier>{1ba4ae83-5b21-4e7b-b49b-5308cfb0cb36}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Obj\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Obj\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>Obj\Field</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15-06-09 text rpg test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Obj\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Obj\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>Obj\Field</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
